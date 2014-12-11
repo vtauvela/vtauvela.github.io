@@ -33,10 +33,11 @@ body {
     -moz-opacity:0.15;  
     background-color:#000000;  
     width:1000px; 
-    height:16em;  
-    position:absolute;  
-    margin: 0 0 0 0;  
-    z-index:0;
+    height:6%;  
+    position:fixed;  
+    margin: 0 0 0 0;
+    overflow:hidden;  
+
 }  
   
 .content  
@@ -225,6 +226,137 @@ i.fa.fa-wrench {
 	margin-bottom: 0em;
 	color: #E84F63;
 }
+
+/* Media Queries */
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background: none;
+	}
+
+	section.grid_3 {
+		width: 48%;
+	}
+
+	nav li {
+		float: none;
+		margin: 2% 0;
+	}
+
+
+}
+
+
+
+/* MOBILE */
+
+@media screen and (max-width: 1014px) {
+
+	body {
+		background: none;
+	}
+
+	section.grid_3 {
+		width: 100%;
+	}
+
+	header.grid_3 {
+		text-align: center;
+		width: 100%;
+	}
+
+	.container.grid_12 {
+		text-align: center;
+	}
+
+	#container2 .transparency  {  
+    opacity: 0.15;  
+    filter:alpha(opacity=15);  
+    -moz-opacity:0.15;  
+    background-color:#000000;
+    text-align: center;  
+    width:1000px; 
+    height:14%;  
+    position:fixed;  
+    margin: 0 0 0 0;
+    overflow:hidden;  
+
+	}  
+}
+
+
+@media screen and (max-width: 524px) {
+
+	body {
+		background: none;
+	}
+
+	section.grid_3 {
+		width: 100%;
+	}
+
+	header.grid_3 {
+		text-align: center;
+		width: 100%;
+	}
+
+	.container.grid_12 {
+		text-align: center;
+	}
+
+	#container2 .transparency  {  
+    opacity: 0.15;  
+    filter:alpha(opacity=15);  
+    -moz-opacity:0.15;  
+    background-color:#000000;
+    text-align: center;  
+    width:1000px; 
+    height:22%;  
+    position:fixed;  
+    margin: 0 0 0 0;
+    overflow:hidden;  
+
+	}  
+}
+
+@media screen and (max-width: 504px) {
+
+	body {
+		background: none;
+	}
+
+	section.grid_3 {
+		width: 100%;
+	}
+
+	header.grid_3 {
+		text-align: center;
+		width: 100%;
+	}
+
+	.container.grid_12 {
+		text-align: center;
+	}
+
+	#container2 .transparency  {  
+    opacity: 0.15;  
+    filter:alpha(opacity=15);  
+    -moz-opacity:0.15;  
+    background-color:#000000;
+    text-align: center;  
+    width:1000px; 
+    height:28%;  
+    position:fixed;  
+    margin: 0 0 0 0;
+    overflow:hidden;  
+
+	}  
+}
+
+
 
 /* Container */
 

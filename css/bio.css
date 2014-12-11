@@ -54,7 +54,7 @@ h4 {
 }
 
 p {
-	font-size: 1em;
+	font-size: 0.9em;
 	font-family: 'Roboto';
 	text-align: left;
 	font-weight: 300;
@@ -79,7 +79,7 @@ img {
 .subheader {
 	margin-top: 32px;
 	margin-right: 120px;
-	margin-left: -40px;
+	margin-left: -30px;
 	line-height: 1.25em;
 	font-size: .95em;
 	text-align: left;
@@ -121,7 +121,7 @@ img {
   
 .content  {  
     position:relative;
-    width: 100%;  
+    width: auto;  
 } 
 
 .contact {
@@ -169,6 +169,10 @@ a:visited {
 	color: #7A1D29;
 }
 
+a:active {
+	color: #fff;
+}
+
 a:hover {
 	transition: color 0.3s;
 	color: white;
@@ -214,7 +218,7 @@ dl {
 
 i.fa.fa-heart {
 	font-size: 3.35em;
-	margin-top: 120px;
+	margin-top: 140px;
 	color: #E84F63;
 }
 
@@ -225,6 +229,11 @@ i.fa.fa-heart {
 	margin: auto;
 	padding-bottom: 55px;
 }
+
+/* MEDIA QUERIES */
+
+/* Desktop */
+
 
 
 /* Show Grid */
