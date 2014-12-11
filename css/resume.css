@@ -1,0 +1,241 @@
+/* GLOBAL */
+body {
+  	font: 1em/1.5 sans-serif;
+  	max-width: 100%;
+  	background: #F5F5F5;
+}
+
+.header {
+	width: 100%;
+	padding: 0 100px 100px 0;
+}
+
+.subheader {
+	margin-top: 32px;
+	font-size: 1.05em;
+}
+
+#container2  
+{    
+    width:100%;  
+    color:#FFFFFF;  
+    position:fixed;  
+    float:none;  
+    margin:0 0 0 0;  
+    overflow:hidden; 
+
+}  
+  
+#container2 .transparency  
+{  
+    opacity: 0.15;  
+    filter:alpha(opacity=15);  
+    -moz-opacity:0.15;  
+    background-color:#000000;  
+    width:1000px; 
+    height:16em;  
+    position:absolute;  
+    margin: 0 0 0 0;  
+    z-index:0;
+}  
+  
+.content  
+{  
+    position:relative;  
+} 
+
+.contact {
+	font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+	font-weight: 100;
+	text-align: center;
+	text-transform: lowercase;
+	padding: 25px 0 5px 0px;
+	margin-bottom: 50px;
+	margin-top: -50px;
+	font-size: 1em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: .03em;
+	font-weight: 100;
+	color: #E84F63;
+	margin: 45px 0 -30px 0;
+	padding: 35px 0 0px 20px;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	font-size: 2.05em;
+	color: black;
+	letter-spacing: .03em;
+	padding-bottom: 3px;
+	border-bottom-style: solid 1px;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	font-size: 1.32em;
+	color: #E84F63;
+	letter-spacing: .03em;
+	padding-bottom: 3px;
+	border-bottom-style: solid 1px #707070;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	text-align: center;
+	font-size: .97em;
+	color: #707070;
+	letter-spacing: .03em;
+	padding-bottom: 3px;
+}
+
+p {
+	font-size: 1.05em;
+	font-family: 'Roboto';
+	text-align: center;
+	font-weight: 300;
+	color: #707070;
+	line-height: 1.07em;
+	letter-spacing: .01em;
+}
+
+.small {
+	font-size: .001em;
+	font-family: 'Roboto';
+	text-align: center;
+	font-weight: 100;
+	color: silver;
+	line-height: 1.07em;
+	letter-spacing: .01em;
+}
+
+dd {
+	text-transform: uppercase;
+	font-size: .97em;
+	color: white;
+	letter-spacing: 3px;
+	padding: 1em;
+	margin: 0 10px 0 0;
+}
+
+
+
+/* HOVER STATES */
+
+a:link {
+	text-decoration: none;
+	color: black;
+	font-family: 'Questrial', sans-serif;
+}
+
+a:visited {
+	color: #7A1D29;
+}
+
+a:hover {
+	transition: color 0.3s;
+	color: white;
+}
+
+
+/* TYPOGRAPHY */
+
+.lastname {
+	font-weight: 400;
+	color: black;
+}
+
+td:nth-last-child(-2n+6) {
+	font-weight: 300;
+}
+/* NAVIGATION */
+
+.nav {
+	display: inline-block;
+	font-size: .85em;
+	text-align: center;
+	margin: 0px;
+}
+
+#banner {
+	width: 100%;
+	height: 500px;
+	margin-top: 0px;
+}
+
+dl {
+	margin: 0 0 0 0px;
+	text-align: center;
+
+}
+
+
+/* Advanced Selectors */
+
+
+/* Icons */
+
+i.fa.fa-phone-square,
+i.fa.fa-envelope-square,
+i.fa.fa-facebook-square,
+i.fa.fa-instagram {
+	color: #E84F63;
+	font-size: 2.15em;
+	margin-bottom: 0.4em;
+}
+
+i.fa.fa-heart {
+	font-size: 1.35em;
+	margin-top: 40px;
+	color: #E84F63;
+}
+
+i.fa.fa-phone-square:hover,
+i.fa.fa-envelope-square:hover,
+i.fa.fa-facebook-square:hover,
+i.fa.fa-instagram:hover {
+	transition: color 0.3s;
+	color: #FF8C9B;
+}
+
+i.fa.fa-heart:hover {
+	transition: color 0.3s;
+	color: #FF8C9B;
+}
+
+i.fa.fa-graduation-cap,
+i.fa.fa-suitcase,
+i.fa.fa-trophy,
+i.fa.fa-wrench {
+	font-size: 1.35em;
+	margin-bottom: 0em;
+	color: #E84F63;
+}
+
+/* Container */
+
+.container {
+	width: 1000px;
+	margin: auto;
+	padding-bottom: 55px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: #fff repeat-y;
+}
